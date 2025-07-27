@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Roboto:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#0D1117] text-white font-roboto;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-montserrat font-extrabold;
+  }
+}
+
+@layer components {
+  .neon-button {
+    @apply relative px-8 py-3 bg-transparent border-2 rounded-full uppercase tracking-wider text-sm font-medium transition-all duration-300
+           hover:shadow-[0_0_20px_rgba(0,191,255,0.5)] hover:border-[#00BFFF] hover:text-[#00BFFF];
+  }
+
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-[#00BFFF] via-[#A020F0] to-[#1ABC9C] animate-gradient;
+  }
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.fixed.inset-0.z-0 {
+  pointer-events: none;
+}
