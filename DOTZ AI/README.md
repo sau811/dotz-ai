@@ -1,6 +1,6 @@
-# Dotz AI – Open Source Virtual Assistant (Phase 1)
+# Dotz AI – Empowering Digital Interactions
 
-Dotz AI is an open-source personal assistant project developed by **Neo**, aiming to create a powerful, all-in-one assistant capable of chatting, generating images, and handling file uploads — completely offline and API-free.
+Dotz AI is an open-source personal assistant project developed by Bhagavath Narenthranath R and Sauhandikaa S, aiming to create a powerful, all-in-one assistant capable of chatting, generating images, and handling file uploads — completely offline and API-free.
 
 ## 🚀 Current Features Implemented
 - ✅ Real-time **Chat** interface (local model or mock logic)
@@ -52,4 +52,4 @@ Create a `.env` file using the `.env.example` as a base.
 This project is licensed under the MIT License – see the [LICENSE](./LICENSE) file for details.
 
 ## 👤 Author
-Developed with vision and creativity by **Neo**.
+Developed with vision and creativity by Bhagavath Narenthranath R and Sauhandikaa S.
