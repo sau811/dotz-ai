@@ -5,7 +5,7 @@ from app.schemas.image_schema import ImageGenerationRequest, ImageGenerationResp
 
 router = APIRouter()
 
-HUGGINGFACE_TOKEN = "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" #Place your token here.
+HUGGINGFACE_TOKEN = "Place_your_token_here" #Place your token here.
 
 @router.post("/", response_model=ImageGenerationResponse)
 async def generate_image_endpoint(request: ImageGenerationRequest):
